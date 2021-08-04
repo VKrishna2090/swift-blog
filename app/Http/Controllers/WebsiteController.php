@@ -27,7 +27,7 @@ class WebsiteController extends Controller
         }
         else
         {
-            return \Response::view('website.error.404'.array(), 404);
+            return Response::view('website.error.404', 404);
         }
     }
 
@@ -41,7 +41,7 @@ class WebsiteController extends Controller
         }
         else
         {
-            return \Response::view('website.error.404'.array(), 404);
+            return \Response::view('website.error.404', 404);
         }
     }
 
@@ -54,7 +54,7 @@ class WebsiteController extends Controller
         }
         else
         {
-            return \Response::view('website.error.404'.array(), 404);
+            return \Response::view('website.error.404', 404);
         }
     }
 

@@ -66,7 +66,7 @@ class GalleryController extends Controller
 
             if($save)
             {
-                $image_url->storeAs('public/galleries',$fileNameToStore);
+                $image_url->storeAs('public/storage/galleries',$fileNameToStore);
             }
         }
 
